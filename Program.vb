@@ -9,15 +9,15 @@ Module Program
         Dim currentDate = DateTime.Now
         Console.WriteLine($"Hello, {name}, on {currentDate:d} at {currentDate:t}")
 
-        Dim n1 As Integer
-        Dim n2 As Integer
+        Dim num1 As Integer
+        Dim num2 As Integer
         Dim answer As Integer
 
-        Console.Write("Type a number")
-        n1 = Console.ReadLine()
-        Console.WriteLine("Type a second number")
-        n2 = Console.ReadLine()
-        answer = n1 + n2
+        Console.Write("Type a number: ")
+        num1 = Console.ReadLine()
+        Console.WriteLine("Type a second number: ")
+        num2 = Console.ReadLine()
+        answer = num1 + num2
         Console.WriteLine("the answer is " & answer)
 
     End Sub
