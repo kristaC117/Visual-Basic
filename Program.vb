@@ -1,5 +1,8 @@
 Imports System
 Imports System.Security.Cryptography.X509Certificates
+'Program One - Hello World and Simple addition program. 
+'This is my first Visual Basic Program on 12/22/2022.\
+'Krista Selene Conley'
 
 Module Program
     Sub Main(args As String())
@@ -19,6 +22,8 @@ Module Program
         num2 = Console.ReadLine()
         answer = num1 + num2
         Console.WriteLine("the answer is " & answer)
+        Module1.inner(num1, num2)
+
 
     End Sub
 End Module
